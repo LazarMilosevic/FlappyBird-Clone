@@ -507,7 +507,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_75
+      name: Day Bird 1 Sprite
       rect:
         serializedVersion: 2
         x: 3
@@ -529,7 +529,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_76
+      name: Day Bird 2 Sprite
       rect:
         serializedVersion: 2
         x: 31
@@ -551,7 +551,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_77
+      name: Day Bird 3 Sprite
       rect:
         serializedVersion: 2
         x: 59
@@ -568,28 +568,6 @@ TextureImporter:
       bones: []
       spriteID: 53fee19f751965760800000000000000
       internalID: 7446298840931430197
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rate button Sprite
-      rect:
-        serializedVersion: 2
-        x: 465
-        y: 493
-        width: 31
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c453a5478292f4b4b8c5dea572b12c66
-      internalID: 1918682244
       vertices: []
       indices: 
       edges: []
@@ -616,6 +594,138 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Share Button Sprite
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 356
+        width: 55
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ded8b278c907a4ab608bbe5bce1880
+      internalID: 1119936596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBird 1 Sprite
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 9
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381a030416b1a454893f9ddf60df1c92
+      internalID: 94494488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night Bird 2 Sprite
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 171
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df11b7f24955154ebfd27886e2e6745
+      internalID: 1986483642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night Bird 3 Sprite
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 145
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a230b5f168a3c0340be18f8cb55b44c1
+      internalID: -1770247473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pillar Lower Night Sprite
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 29
+        width: 26
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f2656f48620e543ae73c862d34bee5
+      internalID: 511941021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pillar Upper Night Sprite
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 29
+        width: 26
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c805eb7e590b5ef418bfd4bdd4005047
+      internalID: 1987785769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -634,6 +744,9 @@ TextureImporter:
     nameFileIdTable:
       Background Day Sprite: -3028843797619237106
       Background Night Sprite: 335599229034294550
+      Day Bird 1 Sprite: 1056323664804065294
+      Day Bird 2 Sprite: -1140478425515490406
+      Day Bird 3 Sprite: 7446298840931430197
       Game Over Sprite: -58746710848001993
       Ground Sprite: -4561133946181240693
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_10: -5483473539241287296
@@ -700,18 +813,21 @@ TextureImporter:
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_72: -6566187506724280842
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_73: 4418428744136845448
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_74: -2273723988912934231
-      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_75: 1056323664804065294
-      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_76: -1140478425515490406
-      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_77: 7446298840931430197
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_78: -8526706937375059277
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_79: 7417950305089921534
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_8: 8429115218152209709
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_80: 6615753734836925697
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_9: 7872081108920916189
+      Night Bird 2 Sprite: 1986483642
+      Night Bird 3 Sprite: -1770247473
+      NightBird 1 Sprite: 94494488
       Pillar Lower Day Sprite: -4685103279127582271
+      Pillar Lower Night Sprite: 511941021
       Pillar Upper Day Sprite: -9212221691092033360
+      Pillar Upper Night Sprite: 1987785769
       Play Button Sprite: -5448222425035498909
       Rate button Sprite: -5001303908148437828
+      Share Button Sprite: 1119936596
       Title Sprite: 4623261541612039627
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
