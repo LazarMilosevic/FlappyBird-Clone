@@ -4,20 +4,26 @@ using UnityEngine;
 
 public class BackGroundManager : MonoBehaviour
 {
+    public static BackGroundManager instance;
     [SerializeField] private BackGroundGetter _backgroundDay;
     [SerializeField] private BackGroundGetter _backgroundNight;
 
-    private bool isDay;
+    public bool isDay;
     private float _speed = 0.25f;
     private float _resetPos = -1.44f;
 
-    void Start()
+    void Awake()
     {
         int hour = DateTime.Now.Hour;
         isDay = (hour > 4 && hour < 22);
         _backgroundDay.gameObject.SetActive(isDay);
         _backgroundNight.gameObject.SetActive(!isDay);
 
+        if (instance == null)
+        {
+            instance = this;
+
+        }
     }
 
     private void Update()
@@ -38,20 +44,6 @@ public class BackGroundManager : MonoBehaviour
                 TeleportBackground(_backgroundNight);
                 break;
         }
-        
-        /*if (isDay)
-        {
-            MoveBackground(_backgroundDay);
-            TeleportBackground(_backgroundDay);
-
-        }
-        else
-        {
-
-            MoveBackground(_backgroundNight);
-            TeleportBackground(_backgroundNight);
-
-        }*/
     }
 
     private void MoveBackground(BackGroundGetter obj)
