@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     
     private static bool isRestarting;
-    
+
     [Header("Canvas")]
     [SerializeField] private GameObject _gameOverCanvas; //whole object with all three canvas
     [SerializeField] private GameObject _startGameCanvas; //whole object with all three canvas
