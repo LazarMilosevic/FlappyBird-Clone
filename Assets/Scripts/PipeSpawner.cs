@@ -16,7 +16,7 @@ public class PipeSpawner : MonoBehaviour
 
     private void Update()
     {
-        if (_timer > _maxTime)
+        if (_timer >= _maxTime)
         {
             spawnPipe();
             _timer = 0f;
