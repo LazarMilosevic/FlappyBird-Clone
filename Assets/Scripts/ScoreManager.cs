@@ -8,7 +8,7 @@ public class ScoreManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _currentScoreValue;
     [SerializeField] private TextMeshProUGUI _highScoreValue;
 
-    private int _score;
+    private int _score = 0;
 
     private void Awake()
     {
