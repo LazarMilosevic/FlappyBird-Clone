@@ -7,7 +7,7 @@ public class BirdManager : MonoBehaviour
 
     void Start()
     {
-        _dayBird.SetActive(BackGroundManager.instance.isDay);
-        _nightBird.SetActive(!BackGroundManager.instance.isDay);
+        _dayBird.SetActive(BackGroundManager.instance.IsDay);
+        _nightBird.SetActive(!BackGroundManager.instance.IsDay);
     }
 }
