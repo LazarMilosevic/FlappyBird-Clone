@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
@@ -35,7 +34,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void StartGame()
+    private void StartGame()
     {
         _startGameCanvas.SetActive(false);
         _score.SetActive(true);

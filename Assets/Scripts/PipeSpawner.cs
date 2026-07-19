@@ -1,33 +1,32 @@
-using System.Threading;
 using UnityEngine;
 
 public class PipeSpawner : MonoBehaviour
 {
-    [SerializeField] private float _maxTime = 3f;
-    [SerializeField] private float _heigthRange = 0.65f;
-    [SerializeField] private GameObject _pipeOriginal;
+    [SerializeField] private float maxTime = 3f;
+    [SerializeField] private float heigthRange = 0.55f;
+    [SerializeField] private GameObject pipeOriginal;
 
     private float _timer;
 
-    void Start()
+    private void Start()
     {
-        spawnPipe();
+        SpawnPipe();
     }
 
     private void Update()
     {
-        if (_timer >= _maxTime)
+        if (_timer >= maxTime)
         {
-            spawnPipe();
+            SpawnPipe();
             _timer = 0f;
         }
         _timer += Time.deltaTime;
     }
 
-    private void spawnPipe()
+    private void SpawnPipe()
     {
-        Vector3 spawnPos = transform.position + new Vector3 (0f, Random.Range(-_heigthRange, _heigthRange), 0f);
-        GameObject _pipeClone = Instantiate(_pipeOriginal, spawnPos, Quaternion.identity);
+        Vector3 spawnPos = transform.position + new Vector3 (0f, Random.Range(-heigthRange, heigthRange), 0f);
+        GameObject _pipeClone = Instantiate(pipeOriginal, spawnPos, Quaternion.identity);
 
         Destroy(_pipeClone, 6.7f);
     }
