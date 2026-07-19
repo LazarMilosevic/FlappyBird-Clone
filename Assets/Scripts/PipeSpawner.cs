@@ -4,11 +4,10 @@ using UnityEngine;
 public class PipeSpawner : MonoBehaviour
 {
     [SerializeField] private float _maxTime = 3f;
-    [SerializeField] private float _heigthRange = 0.67f;
+    [SerializeField] private float _heigthRange = 0.65f;
     [SerializeField] private GameObject _pipeOriginal;
 
     private float _timer;
-
 
     void Start()
     {
