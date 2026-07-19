@@ -15,7 +15,10 @@ public class BirdMovement : MonoBehaviour
 
     private void Update()
     {
-        if (Mouse.current.leftButton.wasPressedThisFrame)
+        bool mousePressed = Mouse.current.leftButton.wasPressedThisFrame;
+        bool spacePressed = Keyboard.current.spaceKey.wasPressedThisFrame;
+
+        if (mousePressed || spacePressed)
         {
             _rb.linearVelocity = Vector2.up * _velocity;
         }
